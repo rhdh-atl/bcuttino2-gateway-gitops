@@ -1,0 +1,15 @@
+app:
+  name: bcuttino2-poi-gateway-app
+  namespace: bcuttino2
+  cluster: .apps.j0i9yf30.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-atl/bcuttino2-gateway
+  org: rhdh-atl
+  name: bcuttino2-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: bcuttino2/poi-gateway-app
+  tag: latest
